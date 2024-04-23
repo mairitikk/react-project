@@ -5,4 +5,4 @@ function App() {
     return <h4>Tere React App</h4>
 
 }
-ReactDOM.render()
+ReactDOM.render(<App />, document.getElementById("root"));
